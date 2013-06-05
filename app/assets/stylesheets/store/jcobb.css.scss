@@ -1,0 +1,35 @@
+$link_color: gray;
+
+a {
+  text-decoration: none;
+  color: $link_color;
+}
+
+ul#products li .price{
+  color: $link_color;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"], button, a.button{
+  background-color: $link_color;
+}
+
+nav #main-nav-bar li#link-to-cart a{
+  color: $link_color;
+}
+
+#breadcrumbs li a{
+  color: $link_color;
+}
+
+#sidebar_products_search .filter-title{
+  color: $link_color;
+}
+
+nav #main-nav-bar li#link-to-cart{
+  background: none;
+}
+
+span.price, #checkout-summary table tr[data-hook="item_total"] td:last-child strong, #checkout-summary table #summary-order-total, #order_details td.price span, #order_details td.total span, #order_summary td.price span, #order_summary td.total span, table#cart-detail tbody#line_items tr td[data-hook="cart_item_price"], table#cart-detail tbody#line_items tr td[data-hook="cart_item_total"], div[data-hook="inside_cart_form"] #subtotal span.order-total {
+font-weight: bold;
+  color: $link_color;
+}
