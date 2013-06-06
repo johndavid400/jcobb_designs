@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/joneslee85/spree-heroku.git
-  revision: 3a3aa2165202f55acf689dcccc4d44648262c6a7
-  specs:
-    spree_heroku (1.0)
-      aws-sdk (~> 1.3.4)
-      spree_core (>= 0.70.0)
-
-GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: b49f76056a317cc2aef6f85dfd4de5b52aa2ca56
   branch: 2-0-stable
@@ -307,6 +299,5 @@ DEPENDENCIES
   spree (= 2.0.1)
   spree_auth_devise!
   spree_gateway!
-  spree_heroku!
   therubyracer
   uglifier (>= 1.0.3)
