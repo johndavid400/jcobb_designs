@@ -1,0 +1,34 @@
+.container
+  .columns.twelve
+    %h1 Contact Information
+
+    .row
+      .six.columns.alpha
+        %p
+          %h4 James & Jacqui Cobb
+          %h5 Artists/Owners
+
+        %p
+          p) 205.542.6515
+          %br
+          p) 205.260.5048
+          %br
+          e) james@jcobbdesigns.com
+
+      .six.columns.omega
+        %p
+          %h4 Trinity Cobb
+          %h5 Events and Sales Coordinator
+
+        %p
+          p) 205.542.6552
+          %br
+          e) events@jcobbdesigns.com
+
+    .row
+      .six.columns.alpha
+        %h5= link_to "Check us out on Facebook", "https://www.facebook.com/jcobbdesigns"
+        = link_to image_tag("fb.jpeg", :size => "60x60"), "https://www.facebook.com/jcobbdesigns"
+      .six.columns.omega
+        %h5= link_to "Follow us on Twitter", "https://twitter.com/jcobbdesigns"
+        = link_to image_tag("twitter.png", :size => "50x50"), "https://twitter.com/jcobbdesigns"

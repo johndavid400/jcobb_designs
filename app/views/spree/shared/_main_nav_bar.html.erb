@@ -1,0 +1,10 @@
+<nav class="columns sixteen">
+  <ul id="main-nav-bar" class="inline" data-hook>
+    <li id="home-link" data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
+    <li><%= link_to "Shop", spree.products_path %></li>
+    <li><%= link_to "Retailers", spree.retailers_path %></li>
+    <li><%= link_to "Contact", spree.contact_path %></li>
+    <li><%= link_to "About", spree.about_path %></li>
+    <li id="link-to-cart" data-hook><%= link_to_cart %></li>
+  </ul>
+</nav>
