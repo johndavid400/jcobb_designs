@@ -19,4 +19,4 @@ gem 'jquery-rails'
 gem 'spree', '2.0.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
-#gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git'
+gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => "2-0-stable"
