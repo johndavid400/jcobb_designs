@@ -1,14 +1,4 @@
 GIT
-  remote: git://github.com/spree/spree_paypal_express.git
-  revision: 8a332d6ea2905e21739574eff635e309669dbc02
-  branch: 2-0-stable
-  specs:
-    spree_paypal_express (1.2.0)
-      spree_backend (~> 2.0.0)
-      spree_core (~> 2.0.0)
-      spree_frontend (~> 2.0.0)
-
-GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: b49f76056a317cc2aef6f85dfd4de5b52aa2ca56
   branch: 2-0-stable
@@ -309,6 +299,5 @@ DEPENDENCIES
   spree (= 2.0.1)
   spree_auth_devise!
   spree_gateway!
-  spree_paypal_express!
   therubyracer
   uglifier (>= 1.0.3)
